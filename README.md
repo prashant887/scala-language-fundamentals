@@ -45,3 +45,5 @@ takes defualt val
 Function literal in the source code get compiled to a class that is instanced  at run time
 
 Partially Applied  Function:where all the args are not passed that function needs specify some or None
+
+Partial Function creates to only a subset of possible data for which it has been defined , works for certain values passed
