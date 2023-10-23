@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a192582-9c1d-4d4f-80b4-df658f4468c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/GenericTypeParameters.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/CurryFunctionDefault.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/VariableArgs.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <recent name="methodsandfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericTypeParameters">
+  <component name="RunManager" selected="Application.VariableArgs">
     <configuration name="CurrencyConversion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="gettingstarted.CurrencyConversion" />
       <module name="scala-language-fundamentals" />
@@ -83,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Currying" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.Currying" />
+    <configuration name="CurryFunctionDefault" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.CurryFunctionDefault" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionInvocationWithExpressionBlocks" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.FunctionInvocationWithExpressionBlocks" />
+    <configuration name="Currying" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.Currying" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -122,19 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HigherOrderFunctionsWithFunctionLiterals" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.HigherOrderFunctionsWithFunctionLiterals" />
-      <module name="scala-language-fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="methodsandfunctions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TypeParameters" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="methodsandfunctions.TypeParameters" />
       <module name="scala-language-fundamentals" />
@@ -148,13 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VariableArgs" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.VariableArgs" />
+      <module name="scala-language-fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="methodsandfunctions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VariableArgs" />
+        <item itemvalue="Application.CurryFunctionDefault" />
         <item itemvalue="Application.GenericTypeParameters" />
         <item itemvalue="Application.TypeParameters" />
         <item itemvalue="Application.Currying" />
-        <item itemvalue="Application.HigherOrderFunctionsWithFunctionLiterals" />
-        <item itemvalue="Application.FunctionInvocationWithExpressionBlocks" />
       </list>
     </recent_temporary>
   </component>

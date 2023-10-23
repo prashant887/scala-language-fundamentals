@@ -58,3 +58,5 @@ A method Defination without = and just {} is called Procdure , and dosnt return 
 
 Currying : Methods with Multiple Param Groups , it has mutiple arugment list , 
 this is like invocating multiple functions bact to back
+
+Call by Value is a strick Evualation Stargy used by Scala by default , expression corrosponding to i/p args are evualted before function body is executed
