@@ -47,3 +47,8 @@ Function literal in the source code get compiled to a class that is instanced  a
 Partially Applied  Function:where all the args are not passed that function needs specify some or None
 
 Partial Function creates to only a subset of possible data for which it has been defined , works for certain values passed
+
+First Class Function allows functions to be assigned to variable and execute it
+
+HigherOrder Functions : Takes Functions as input param , functions are first class citizen , even methods can be passed as args 
+
