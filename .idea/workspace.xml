@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a192582-9c1d-4d4f-80b4-df658f4468c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/HigherOrderFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/Closures.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -61,7 +61,20 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HigherOrderFunctions">
+  <component name="RunManager" selected="Application.Closures">
+    <configuration name="Closures" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.Closures" />
+      <module name="scala-language-fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="methodsandfunctions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CurrencyConversion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="gettingstarted.CurrencyConversion" />
       <module name="scala-language-fundamentals" />
@@ -133,19 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run REPL.sc" type="ScalaAmmoniteRunConfigurationType" factoryName="Ammonite" temporary="true">
-      <setting name="execName" value="" />
-      <setting name="fileName" value="$PROJECT_DIR$/src/main/scala/methodsandfunctions/REPL.sc" />
-      <setting name="scriptParameters" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Closures" />
         <item itemvalue="Application.HigherOrderFunctions" />
         <item itemvalue="Application.PartialFunctions" />
         <item itemvalue="Application.PartiallyAppliedFunction" />
         <item itemvalue="Application.FunctionalLiteralsAndPlaceholders" />
-        <item itemvalue="Ammonite.Run REPL.sc" />
       </list>
     </recent_temporary>
   </component>

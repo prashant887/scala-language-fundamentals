@@ -52,3 +52,4 @@ First Class Function allows functions to be assigned to variable and execute it
 
 HigherOrder Functions : Takes Functions as input param , functions are first class citizen , even methods can be passed as args 
 
+Closure : Function Value created at Run time from function Literal called closure , where the value of free variales are captured inside function
