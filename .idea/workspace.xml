@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a192582-9c1d-4d4f-80b4-df658f4468c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/CurryFunctionDefault.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/VariableArgs.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/NestedMethods.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
       <recent name="methodsandfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VariableArgs">
+  <component name="RunManager" selected="Application.NestedMethods">
     <configuration name="CurrencyConversion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="gettingstarted.CurrencyConversion" />
       <module name="scala-language-fundamentals" />
@@ -98,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Currying" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.Currying" />
+    <configuration name="GenericTypeParameters" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.GenericTypeParameters" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTypeParameters" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.GenericTypeParameters" />
+    <configuration name="NestedMethods" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.NestedMethods" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NestedMethods" />
         <item itemvalue="Application.VariableArgs" />
         <item itemvalue="Application.CurryFunctionDefault" />
         <item itemvalue="Application.GenericTypeParameters" />
         <item itemvalue="Application.TypeParameters" />
-        <item itemvalue="Application.Currying" />
       </list>
     </recent_temporary>
   </component>
