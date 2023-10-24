@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a192582-9c1d-4d4f-80b4-df658f4468c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/NestedMethods.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/EitherLeftOrRight.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/OptionSomeNone.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/OptionSomeNone.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/Reccursive.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/Reccursive.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TailReccursive.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TailReccursive.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TryCatchFinally.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TryCatchFinally.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TrySuccessFailure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TrySuccessFailure.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +69,7 @@
       <recent name="methodsandfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NestedMethods">
+  <component name="RunManager" selected="Application.EitherLeftOrRight">
     <configuration name="CurrencyConversion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="gettingstarted.CurrencyConversion" />
       <module name="scala-language-fundamentals" />
@@ -82,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurryFunctionDefault" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.CurryFunctionDefault" />
+    <configuration name="EitherLeftOrRight" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.EitherLeftOrRight" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTypeParameters" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.GenericTypeParameters" />
+    <configuration name="OptionSomeNone" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.OptionSomeNone" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedMethods" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.NestedMethods" />
+    <configuration name="TailReccursive" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.TailReccursive" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeParameters" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.TypeParameters" />
+    <configuration name="TryCatchFinally" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.TryCatchFinally" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableArgs" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.VariableArgs" />
+    <configuration name="TrySuccessFailure" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.TrySuccessFailure" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NestedMethods" />
-        <item itemvalue="Application.VariableArgs" />
-        <item itemvalue="Application.CurryFunctionDefault" />
-        <item itemvalue="Application.GenericTypeParameters" />
-        <item itemvalue="Application.TypeParameters" />
+        <item itemvalue="Application.EitherLeftOrRight" />
+        <item itemvalue="Application.OptionSomeNone" />
+        <item itemvalue="Application.TrySuccessFailure" />
+        <item itemvalue="Application.TryCatchFinally" />
+        <item itemvalue="Application.TailReccursive" />
       </list>
     </recent_temporary>
   </component>

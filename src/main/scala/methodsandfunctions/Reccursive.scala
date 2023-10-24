@@ -1,6 +1,6 @@
 package methodsandfunctions
 
-object NestedMethods extends App {
+object Reccursive extends App {
 
   case class StockRecord(date: String,
                          open: Float,
@@ -19,17 +19,33 @@ object NestedMethods extends App {
       cols(4).toFloat, cols(5))
   }
 
-  val records=readFinanceData()
 
-  def printRecords(ticker:String):Unit={
-    println("Date|Ticker|Close")
-    def printRecords():Unit={
-      for (row<-records.filter(x=>x.ticker==ticker)){
-        println(s"${row.date}|${row.ticker}|${row.close}")
-      }
+ def rollingAvg(numDays:Int):Unit={
+   var records=readFinanceData()
+while (records.length>=numDays) {
+  val avrageClosePrice:Double=records.map(x=>x.close).take(numDays).sum/numDays
+  println(s"Rolling Average for $numDays is date ${records.head.date} $avrageClosePrice")
+
+  records=records.drop(1)
+}
+   println("Execution COmpleted")
+ }
+
+  rollingAvg(7)
+
+  def rollingAvgReccursion(records:Vector[StockRecord],numDays:Int):Unit={
+    //Base case
+    if(records.length<numDays){
+      println("Execution Completed")
     }
-    printRecords()
-  }
+    else {
+      val avrageClosePrice: Double = records.map(x => x.close).take(numDays).sum / numDays
+      println(s"Rolling Average for $numDays is date ${records.head.date} $avrageClosePrice")
+      val updatedRecords=records.drop(1)
+      rollingAvgReccursion(updatedRecords,numDays)
 
-  printRecords(ticker = "DB")
+    }
+  }
+  println("\n")
+  rollingAvgReccursion(readFinanceData(),7)
 }

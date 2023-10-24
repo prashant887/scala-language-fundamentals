@@ -1,6 +1,8 @@
 package methodsandfunctions
 
-object Reccursive extends App {
+import scala.annotation.tailrec
+
+object TailReccursive extends App {
 
   case class StockRecord(date: String,
                          open: Float,
@@ -20,29 +22,20 @@ object Reccursive extends App {
   }
 
 
- def rollingAvg(numDays:Int):Unit={
-   var records=readFinanceData()
-while (records.length>=numDays) {
-  val avrageClosePrice:Double=records.map(x=>x.close).take(numDays).sum/numDays
-  println(s"Rolling Average for $numDays is date ${records.head.date} $avrageClosePrice")
 
-  records=records.drop(1)
-}
-   println("Execution COmpleted")
- }
-
-  rollingAvg(7)
-
+  @tailrec
   def rollingAvgReccursion(records:Vector[StockRecord],numDays:Int):Unit={
     //Base case
     if(records.length<numDays){
       println("Execution Completed")
+      throw new Exception("Error to see stack trace")
     }
     else {
       val avrageClosePrice: Double = records.map(x => x.close).take(numDays).sum / numDays
       println(s"Rolling Average for $numDays is date ${records.head.date} $avrageClosePrice")
       val updatedRecords=records.drop(1)
       rollingAvgReccursion(updatedRecords,numDays)
+      //println("Last Line of Method")
 
     }
   }
