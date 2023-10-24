@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a192582-9c1d-4d4f-80b4-df658f4468c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/classesandobjects/Account.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/classesandobjects/AccountAbstract.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/classesandobjects/Customer.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/classesandobjects/Account.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/classesandobjects/Account.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +66,22 @@
       <recent name="methodsandfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountRunner">
+  <component name="RunManager" selected="Application.AccountRunnerAbstract">
     <configuration name="AccountRunner" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="classesandobjects.AccountRunner" />
+      <module name="scala-language-fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classesandobjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountRunnerAbstract" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="classesandobjects.AccountRunnerAbstract" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -110,25 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EitherLeftOrRight" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.EitherLeftOrRight" />
+    <configuration name="EmailRunner" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="classesandobjects.EmailRunner" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodsandfunctions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionSomeNone" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.OptionSomeNone" />
-      <module name="scala-language-fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="methodsandfunctions.*" />
+          <option name="PATTERN" value="classesandobjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,17 +148,17 @@
       <item itemvalue="Ammonite.Run REPL.sc" />
       <item itemvalue="Application.CurrencyConversion" />
       <item itemvalue="Application.AccountRunner" />
+      <item itemvalue="Application.AccountRunnerAbstract" />
       <item itemvalue="Application.Convertors" />
-      <item itemvalue="Application.EitherLeftOrRight" />
-      <item itemvalue="Application.OptionSomeNone" />
+      <item itemvalue="Application.EmailRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountRunnerAbstract" />
         <item itemvalue="Application.AccountRunner" />
+        <item itemvalue="Application.EmailRunner" />
         <item itemvalue="Application.Convertors" />
         <item itemvalue="Ammonite.Run REPL.sc" />
-        <item itemvalue="Application.EitherLeftOrRight" />
-        <item itemvalue="Application.OptionSomeNone" />
       </list>
     </recent_temporary>
   </component>
