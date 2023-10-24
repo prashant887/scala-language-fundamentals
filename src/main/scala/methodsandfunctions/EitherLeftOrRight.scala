@@ -1,0 +1,5 @@
+package methodsandfunctions
+
+class EitherLeftOrRight {
+
+}
