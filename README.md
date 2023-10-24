@@ -64,3 +64,9 @@ Call by Value is a strick Evualation Stargy used by Scala by default , expressio
 A new stack frame will not be created for each reccursive call all calls will be executed in single stack frame
 by simply updating params to reccursive call , it cant be applied to all methods 
 Recursive call should be last call in method 
+
+Pure Functions : 
+- Return same value for same i/ps 
+- Have no side effects
+
+Scala Functions are mondas 

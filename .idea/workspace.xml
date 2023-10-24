@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a192582-9c1d-4d4f-80b4-df658f4468c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/EitherLeftOrRight.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/collections/Convertors.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/collections/REPL.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/OptionSomeNone.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/OptionSomeNone.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/Reccursive.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/Reccursive.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TailReccursive.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TailReccursive.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TryCatchFinally.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TryCatchFinally.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TrySuccessFailure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TrySuccessFailure.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,20 @@
       <recent name="methodsandfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EitherLeftOrRight">
+  <component name="RunManager" selected="Application.Convertors">
+    <configuration name="Convertors" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="collections.Convertors" />
+      <module name="scala-language-fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CurrencyConversion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="gettingstarted.CurrencyConversion" />
       <module name="scala-language-fundamentals" />
@@ -115,32 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TailReccursive" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.TailReccursive" />
-      <module name="scala-language-fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="methodsandfunctions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryCatchFinally" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="methodsandfunctions.TryCatchFinally" />
-      <module name="scala-language-fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="methodsandfunctions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TrySuccessFailure" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="methodsandfunctions.TrySuccessFailure" />
       <module name="scala-language-fundamentals" />
@@ -154,13 +136,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Run REPL.sc" type="ScalaAmmoniteRunConfigurationType" factoryName="Ammonite" temporary="true">
+      <setting name="execName" value="amm" />
+      <setting name="fileName" value="$PROJECT_DIR$/src/main/scala/collections/REPL.sc" />
+      <setting name="scriptParameters" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Ammonite.Run REPL.sc" />
+      <item itemvalue="Application.CurrencyConversion" />
+      <item itemvalue="Application.Convertors" />
+      <item itemvalue="Application.EitherLeftOrRight" />
+      <item itemvalue="Application.OptionSomeNone" />
+      <item itemvalue="Application.TrySuccessFailure" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Convertors" />
+        <item itemvalue="Ammonite.Run REPL.sc" />
         <item itemvalue="Application.EitherLeftOrRight" />
         <item itemvalue="Application.OptionSomeNone" />
         <item itemvalue="Application.TrySuccessFailure" />
-        <item itemvalue="Application.TryCatchFinally" />
-        <item itemvalue="Application.TailReccursive" />
       </list>
     </recent_temporary>
   </component>
