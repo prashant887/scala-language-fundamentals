@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a192582-9c1d-4d4f-80b4-df658f4468c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/classesandobjects/TransactionCaseRunner.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/classesandobjects/Companion.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/classesandobjects/FactoryMethod.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/packagesandimporting/services/MonthlyBudget.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/packagesandimporting/services/MonthlyBudget.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
       <list>
         <option value="Class" />
         <option value="Scala Worksheet" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -42,32 +45,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/pl/IdeaProjects/scala-language-fundamentals/src/main/scala/classesandobjects",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "scala_project_settings_configurable.last_selected_tab_index": "3",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pl/IdeaProjects/scala-language-fundamentals/src/main/scala/classesandobjects&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala/classesandobjects" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="packagesandimporting.entities" />
       <recent name="methodsandfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TransactionCaseRunner">
-    <configuration name="AccountRunnerAbstract" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="classesandobjects.AccountRunnerAbstract" />
+  <component name="RunManager" selected="Application.Companion">
+    <configuration name="Companion" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="classesandobjects.Companion" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyRunner" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="classesandobjects.CurrencyRunner" />
+    <configuration name="FactoryMethod" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="classesandobjects.FactoryMethod" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -152,19 +156,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CurrencyConversion" />
-      <item itemvalue="Application.AccountRunnerAbstract" />
-      <item itemvalue="Application.CurrencyRunner" />
+      <item itemvalue="Application.Companion" />
+      <item itemvalue="Application.FactoryMethod" />
       <item itemvalue="Application.RunTrait" />
       <item itemvalue="Application.TransactionCaseRunner" />
       <item itemvalue="Application.TransactionRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Companion" />
+        <item itemvalue="Application.FactoryMethod" />
         <item itemvalue="Application.TransactionCaseRunner" />
         <item itemvalue="Application.TransactionRunner" />
         <item itemvalue="Application.RunTrait" />
-        <item itemvalue="Application.CurrencyRunner" />
-        <item itemvalue="Application.AccountRunnerAbstract" />
       </list>
     </recent_temporary>
   </component>

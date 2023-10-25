@@ -6,5 +6,5 @@ import packagesandimporting.entities.{Budget, Transaction, User} //User=>_ User 
 Classes in different packge needs to be imported
  */
 case class MonthlyBudget(val budget: Budget,val ts:Array[Transaction]) {
-  val userId:String=User("Tony","Stark").getId
+  //val userId:String=User("Tony","Stark")
 }

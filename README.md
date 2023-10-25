@@ -72,6 +72,7 @@ Pure Functions :
 Scala Functions are mondas 
 
 Companion Object is a Object with same name as class , it acts as static methods
+If a Object and Class has same name in same source file
 
 Trait: Interface
 
