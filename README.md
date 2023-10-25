@@ -74,3 +74,5 @@ Scala Functions are mondas
 Companion Object is a Object with same name as class , it acts as static methods
 
 Trait: Interface
+
+Saled Trait:To control extending Traits 
