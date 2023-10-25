@@ -1,0 +1,5 @@
+package classesandobjects
+
+object Companion {
+
+}
