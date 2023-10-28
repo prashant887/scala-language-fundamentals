@@ -57,4 +57,18 @@ val existFunction=(ticker:String)=>data.contains(ticker)
 println("Exist Method "+exitsMethod("APP"))
 println("Exist Function "+existFunction("APP"))
 
+val myList:List[String]=List("Spark","mimics","Scala","collections")
 
+val flatMapped:List[String]=myList.flatMap(s=>{
+  println(s)
+  val filters=List("mimics","collections")
+  if (filters.contains(s)){
+    None
+  }
+  else {
+    Some(s)
+  }
+})
+
+println(flatMapped)
+//FLatMap filters None at its own , flatmap unboxes elements explodes/shrinks values
