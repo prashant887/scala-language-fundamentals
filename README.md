@@ -57,7 +57,7 @@ Closure : Function Value created at Run time from function Literal called closur
 A method Defination without = and just {} is called Procdure , and dosnt return anything 
 
 Currying : Methods with Multiple Param Groups , it has mutiple arugment list , 
-this is like invocating multiple functions bact to back
+this is like invocating multiple functions back to back
 
 Call by Value is a strick Evualation Stargy used by Scala by default , expression corrosponding to i/p args are evualted before function body is executed
 
@@ -80,3 +80,6 @@ Saled Trait:To control extending Traits
 
 Private:Cant access parent methods by sublcass
 Protected:Cant access parent methods by sublcass
+
+If a class param is not declared as var/val it becomes a local variable 
+and not a instance variables 

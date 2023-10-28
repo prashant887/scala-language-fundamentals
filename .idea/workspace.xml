@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a192582-9c1d-4d4f-80b4-df658f4468c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/classesandobjects/Companion.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/classesandobjects/FactoryMethod.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/packagesandimporting/services/MonthlyBudget.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/packagesandimporting/services/MonthlyBudget.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/gettingstarted/Implicits.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/gettingstarted/Implicits.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <recent name="methodsandfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Companion">
+  <component name="RunManager" selected="Application.Implicits">
     <configuration name="Companion" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="classesandobjects.Companion" />
       <module name="scala-language-fundamentals" />
@@ -115,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunTrait" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="classesandobjects.RunTrait" />
+    <configuration name="Implicits" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="gettingstarted.Implicits" />
       <module name="scala-language-fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classesandobjects.*" />
+          <option name="PATTERN" value="gettingstarted.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,17 +155,17 @@
       <item itemvalue="Application.CurrencyConversion" />
       <item itemvalue="Application.Companion" />
       <item itemvalue="Application.FactoryMethod" />
-      <item itemvalue="Application.RunTrait" />
+      <item itemvalue="Application.Implicits" />
       <item itemvalue="Application.TransactionCaseRunner" />
       <item itemvalue="Application.TransactionRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Implicits" />
         <item itemvalue="Application.Companion" />
         <item itemvalue="Application.FactoryMethod" />
         <item itemvalue="Application.TransactionCaseRunner" />
         <item itemvalue="Application.TransactionRunner" />
-        <item itemvalue="Application.RunTrait" />
       </list>
     </recent_temporary>
   </component>

@@ -22,7 +22,7 @@ class Graph private(path:String) {
     println(s"Apply Method $string and $path")
   }
 
-  def getId:String=id
+  //def getId:String=id
 
 
 }
@@ -32,7 +32,7 @@ object Graph  {
   val MEM=1
 
   val g=new Graph("id")
-  g.id=UUID.randomUUID().toString //Accessing Private Memeber
+ // g.id=UUID.randomUUID().toString //Accessing Private Memeber
 
   def getVertices:Int=g.numVertices //Private Method
   def apply(path:String)=new Graph(path)
@@ -56,5 +56,5 @@ object Companion extends App {
   cmpTwo.persist(Graph.DISK_ONLY)
 
   println(cmpTwo.numEdge) //Here class method is accessed as static
-  println("ID "+cmpTwo.getId)
+  //println("ID "+cmpTwo.getId)
 }

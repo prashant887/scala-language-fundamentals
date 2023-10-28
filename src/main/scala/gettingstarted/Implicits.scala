@@ -22,6 +22,20 @@ object Implicits extends App {
   println(stringToCurrency("NZD 100"))
 
   //This works after making function implicit
-  val cad:Currency = "CAD 100"
+  val cad:Currency = "CAD 100"//mathes for function with this format
+
   println(cad)
+
+  def sayHello(name:String)(implicit myself:String):String={
+    s"Hello $name ! My name is $myself"
+  }
+
+  implicit val myString="implicets" //only one impicient variable can be present
+  implicit val newStr="anotherStr"
+
+  val fast=sayHello("test")(newStr)
+  // or when only one impicent var is defined
+  //  val fast=sayHello("test")(newStr)
+
+  println(fast)
 }
