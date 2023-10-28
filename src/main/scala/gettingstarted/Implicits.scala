@@ -38,4 +38,14 @@ object Implicits extends App {
   //  val fast=sayHello("test")(newStr)
 
   println(fast)
+
+
+  //Implcient class , that takes single param implcient class can take any variable of i/p type (string here) and convert to instance of itself
+  implicit class stringUtils(myString:String){
+    def wordCount():Unit={
+      println(myString)
+    }
+  }
+
+  "This is a sentence".wordCount()
 }

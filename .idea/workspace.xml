@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a192582-9c1d-4d4f-80b4-df658f4468c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/gettingstarted/Implicits.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/gettingstarted/Implicits.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
