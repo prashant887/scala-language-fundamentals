@@ -1,0 +1,5 @@
+package matchers
+
+class ExceptionSpec {
+
+}

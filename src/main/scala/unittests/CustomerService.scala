@@ -1,0 +1,5 @@
+package unittests
+
+trait CustomerService {
+
+}

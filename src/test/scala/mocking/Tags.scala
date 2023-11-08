@@ -1,0 +1,5 @@
+package mocking
+
+class Tags {
+
+}

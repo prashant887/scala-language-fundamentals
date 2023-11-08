@@ -1,0 +1,5 @@
+package assertions
+
+class DollarsSpec {
+
+}
