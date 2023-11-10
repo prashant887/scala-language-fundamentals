@@ -12,7 +12,7 @@ object TrySuccessFailure extends App {
         Try(Source.fromFile(file))
     }
 
-    val sourcePath:Try[BufferedSource]=getLinesFromFile("/data/dividendStocks.csv")
+    val sourcePath:Try[BufferedSource]=getLinesFromFile("data/dividendStocks.csv")
 
 
     sourcePath match {

@@ -83,3 +83,10 @@ Protected:Cant access parent methods by sublcass
 
 If a class param is not declared as var/val it becomes a local variable 
 and not a instance variables 
+
+**Future**
+These are async calls , once remote calls is complete value for future is avilable 
+
+**Polymorhism**
+Compile Time : Early Binding 
+Run Time : Late Binding 

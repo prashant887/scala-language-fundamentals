@@ -8,3 +8,5 @@ lazy val root = (project in file("."))
   )
 
 libraryDependencies += "org.scala-lang.modules" %% "scala-xml" % "2.2.0"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.17" % Test
+libraryDependencies += "org.scalamock" %% "scalamock" % "5.2.0" % Test
