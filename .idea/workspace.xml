@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a192582-9c1d-4d4f-80b4-df658f4468c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/gettingstarted/ImplicitConversions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/gettingstarted/TypeClass.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/packageobject/MainDriver.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/packageobject/package.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/gettingstarted/Implicits.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/gettingstarted/Implicits.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TrySuccessFailure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/methodsandfunctions/TrySuccessFailure.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/unittests/Currency.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/unittests/Currency.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/unittests/Customer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/unittests/Customer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/unittests/CustomerService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/unittests/CustomerService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/unittests/Db.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/unittests/Db.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/unittests/Dollars.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/unittests/Dollars.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/unittests/Email.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/unittests/Email.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/HelloWorldSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/HelloWorldSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/assertions/DollarsSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/assertions/DollarsSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/assertions/EmailSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/assertions/EmailSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/matchers/ContainerSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/matchers/ContainerSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/matchers/EmptynessSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/matchers/EmptynessSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/matchers/EqualitySpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/matchers/EqualitySpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/matchers/ExceptionSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/matchers/ExceptionSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/matchers/LengthAndSizeSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/matchers/LengthAndSizeSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/matchers/OrderingSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/matchers/OrderingSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/matchers/PatternMatchingSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/matchers/PatternMatchingSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/matchers/StringSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/matchers/StringSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/matchers/UnitSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/matchers/UnitSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/mocking/FunctionMockSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/mocking/FunctionMockSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/mocking/Tags.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/mocking/Tags.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +67,7 @@
       <recent name="methodsandfunctions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TypeClass">
+  <component name="RunManager" selected="Application.MainDriver">
     <configuration name="CurrencyConversion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="gettingstarted.CurrencyConversion" />
       <module name="scala-language-fundamentals" />
@@ -125,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainDriver" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="packageobject.MainDriver" />
+      <module name="scala-language-fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="packageobject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypeClass" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="gettingstarted.TypeClass" />
       <module name="scala-language-fundamentals" />
@@ -134,19 +122,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DollarsSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="scala-language-fundamentals" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="testClassPath" value="assertions.DollarsSpec" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,19 +155,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CurrencyConversion" />
+      <item itemvalue="Application.MainDriver" />
       <item itemvalue="Application.ImplicitConversions" />
       <item itemvalue="Application.TypeClass" />
-      <item itemvalue="ScalaTest.DollarsSpec" />
       <item itemvalue="ScalaTest.DollarsSpec.A Dollar should create a correct Dollar object for number 10 as input" />
       <item itemvalue="ScalaTest.FunctionMockSpec" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainDriver" />
         <item itemvalue="Application.TypeClass" />
         <item itemvalue="Application.ImplicitConversions" />
         <item itemvalue="ScalaTest.FunctionMockSpec" />
         <item itemvalue="ScalaTest.DollarsSpec.A Dollar should create a correct Dollar object for number 10 as input" />
-        <item itemvalue="ScalaTest.DollarsSpec" />
       </list>
     </recent_temporary>
   </component>
